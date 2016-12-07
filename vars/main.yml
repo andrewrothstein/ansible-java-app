@@ -1,0 +1,4 @@
+---
+java_app_named_ver: '{{java_app_name}}-{{java_app_ver}}'
+java_app_jar: '{{java_app_named_ver}}.jar'
+java_app_url: '{{java_app_mirror}}/{{java_app_name}}/{{java_app_ver}}/{{java_app_jar}}'
