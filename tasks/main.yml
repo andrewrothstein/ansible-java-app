@@ -15,12 +15,12 @@
     dest={{java_app_jars_dir}}/{{java_app_jar}}
     mode=0644
 
-- name: link uber.jar
-  become: yes
-  become_user: root
-  file: >-
-    src={{java_app_jars_dir}}/{{java_app_jar}}
-    dest={{java_app_jars_dir}}/uber.jar
-    mode=link
+#- name: link uber.jar
+#  become: yes
+#  become_user: root
+#  file: >-
+#    src={{java_app_jars_dir}}/{{java_app_jar}}
+#    dest={{java_app_jars_dir}}/uber.jar
+#    mode=link
 
 
